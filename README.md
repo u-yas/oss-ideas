@@ -12,7 +12,7 @@ ossのアイデアを書き残すために作成しました。
 ↓こんな感じの
 ```bash
 $ npx create-npm-app --node <appName> --with-typescript
-# node用のnpmライブラリを作るためのテンプレートをインストールするみたいな
+# node用のnpmライブラリを作るためのテンプレート(rollup、webpackの設定)をインストールするみたいな
 ```
  -> create-react-app, create-next-app　みたいな？
 
