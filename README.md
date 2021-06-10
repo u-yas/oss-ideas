@@ -16,9 +16,11 @@ $ npx create-npm-app --node <appName> --with-typescript
 ```
  -> create-react-app, create-next-app　みたいな？
 
-- React component api
+- React component api    
 MaterialUIみたいにゴリゴリにデザインが作り込まれてるのでは無く、ロジックだけ提供する。Modalとかaccordionとか、textfieldとか
 利点
  ・デザインそのものは好きなCSSで作れる(tailwindとかchakraとか、その他色々)
- ・デザインシステムの開発スピードを上げられる
-
+ ・デザインシステムの開発スピードを上げられる    
+ 
+ refで提供？テンプレートを用意して置くだけで使えるようにするが、カスタマイズもできるようにする    
+materialuiやchakraのロジック部分を無効化するrefを作り、デザインだけ使えるようにする
